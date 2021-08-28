@@ -3,13 +3,15 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class RestaurantTest {
     Restaurant restaurant;
     //REFACTOR ALL THE REPEATED LINES OF CODE
-    
+
     @BeforeEach
 
     public void setup() {
@@ -68,4 +70,14 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    //<<<<<<<<<<<<<<<<<<<<<<<ITEMS-TOTAL-VALUE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @Test
+    public void total_of_all_items_added_to_cart() {
+        List <String> itemsList = new ArrayList<String>();
+        itemsList.add("Sweet corn soup");
+        itemsList.add("Vegetable lasagne");
+        assertEquals(388,restaurant.getItemsTotal(itemsList));
+    }
+
 }

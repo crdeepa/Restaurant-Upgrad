@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71e3da8e-6fbe-417f-ab80-791d378d187a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestaurantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/itemNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itemNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurantNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurantNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.RestaurantServiceTest">
+  <component name="RunManager" selected="JUnit.RestaurantTest.total_of_all_items_added_to_cart">
     <configuration name="RestaurantServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Restaurant-Upgrad" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,16 +54,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest.removing_item_from_menu_should_decrease_menu_size_by_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Restaurant-Upgrad" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
-      <option name="METHOD_NAME" value="removing_item_from_menu_should_decrease_menu_size_by_1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RestaurantTest.removing_item_that_does_not_exist_should_throw_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Restaurant-Upgrad" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,13 +64,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestaurantTest.total_of_all_items_added_to_cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Restaurant-Upgrad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
+      <option name="METHOD_NAME" value="total_of_all_items_added_to_cart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestaurantTest.total_of_all_items_added_to_cart" />
         <item itemvalue="JUnit.RestaurantServiceTest" />
         <item itemvalue="JUnit.RestaurantServiceTest.searching_for_non_existing_restaurant_should_throw_exception" />
         <item itemvalue="JUnit.RestaurantTest" />
         <item itemvalue="JUnit.RestaurantTest.removing_item_that_does_not_exist_should_throw_exception" />
-        <item itemvalue="JUnit.RestaurantTest.removing_item_from_menu_should_decrease_menu_size_by_1" />
       </list>
     </recent_temporary>
   </component>
