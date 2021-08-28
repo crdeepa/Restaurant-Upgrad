@@ -6,7 +6,7 @@ public class RestaurantService {
     private static List<Restaurant> restaurants = new ArrayList<>();
 
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException {
-        //return null; -- Commented by Deepa
+        //return null;
         //DELETE ABOVE STATEMENT AND WRITE CODE HERE
 
         //Below aded by Deepa

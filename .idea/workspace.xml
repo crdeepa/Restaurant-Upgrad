@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71e3da8e-6fbe-417f-ab80-791d378d187a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestaurantServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestaurantServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestaurantServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestaurantServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestaurantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itemNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itemNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurantNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurantNotFoundException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
